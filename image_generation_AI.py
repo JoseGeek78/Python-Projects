@@ -27,3 +27,4 @@ def openai_request(prompt):
 def download_image(url, filename):
     response = requests.get(url)
     with open(filename, 'wd') as file:
+        file.write(response.content)
