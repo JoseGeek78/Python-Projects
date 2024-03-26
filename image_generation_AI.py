@@ -25,3 +25,4 @@ def openai_request(prompt):
     return image_url
 
 def download_image(url, filename):
+    response = requests.get(url)
