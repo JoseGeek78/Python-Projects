@@ -19,3 +19,5 @@ def openai_request(prompt):
     )
     if response.status_code != 200:
         raise Exception(response.jason())
+    else:
+        image_url = response.json()['data'][0]['url']
