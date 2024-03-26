@@ -21,3 +21,5 @@ def openai_request(prompt):
         raise Exception(response.jason())
     else:
         image_url = response.json()['data'][0]['url']
+        
+    return image_url
