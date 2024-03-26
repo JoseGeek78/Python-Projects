@@ -17,3 +17,4 @@ def openai_request(prompt):
             'n': 1
         }
     )
+    if response.status_code != 200:
