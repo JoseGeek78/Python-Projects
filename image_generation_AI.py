@@ -23,3 +23,5 @@ def openai_request(prompt):
         image_url = response.json()['data'][0]['url']
         
     return image_url
+
+def download_image(url, filename):
