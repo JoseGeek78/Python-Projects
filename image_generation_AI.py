@@ -28,3 +28,6 @@ def download_image(url, filename):
     response = requests.get(url)
     with open(filename, 'wd') as file:
         file.write(response.content)
+        
+        
+st.set_page_config()
