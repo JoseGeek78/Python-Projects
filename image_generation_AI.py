@@ -30,4 +30,6 @@ def download_image(url, filename):
         file.write(response.content)
         
         
-st.set_page_config()
+st.set_page_config(page_title="AI Image Generator", page_icon="🤖", layout="centered")
+
+
