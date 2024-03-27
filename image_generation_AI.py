@@ -35,4 +35,6 @@ st.set_page_config(page_title="AI Image Generator", page_icon="🤖", layout="ce
 
 st.image('images/full.jpg', use_column_width=True)
 st.title('AI Image Generator')
-description
+description = st.text_area('Prompt')
+
+if
