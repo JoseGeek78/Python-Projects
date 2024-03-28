@@ -38,3 +38,4 @@ st.title('AI Image Generator')
 description = st.text_area('Prompt')
 
 if st.button('Generate Image'):
+    with st.spinner('Generating your image...'):
