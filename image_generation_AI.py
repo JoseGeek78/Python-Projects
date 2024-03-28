@@ -37,4 +37,4 @@ st.image('images/full.jpg', use_column_width=True)
 st.title('AI Image Generator')
 description = st.text_area('Prompt')
 
-if
+if st.button('Generate Image'):
