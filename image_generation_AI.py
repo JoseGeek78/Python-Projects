@@ -45,3 +45,4 @@ if st.button('Generate Image'):
         st.image(filename, use_column_width=True)
         with open(filename, 'rb') as f:
             image_data = f.read()
+        download = st.download_button()
