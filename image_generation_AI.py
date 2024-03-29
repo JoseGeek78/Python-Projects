@@ -42,4 +42,4 @@ if st.button('Generate Image'):
         url = openai_request(description)
         filename = 'AI_images/image_generator.png'
         download_image(url, filename)
-        st.image(filenam, use_column_width=True)
+        st.image(filename, use_column_width=True)
