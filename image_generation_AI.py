@@ -43,3 +43,4 @@ if st.button('Generate Image'):
         filename = 'AI_images/image_generator.png'
         download_image(url, filename)
         st.image(filename, use_column_width=True)
+        with open(filenam, 'rb') as f:
