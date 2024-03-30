@@ -4,4 +4,9 @@ import streamlit as st
 filename = 'qr_codes/qr_code.png'
 
 def generate_qr_code(url, filename):
-    qr = qrcode.QRCode
+    qr = qrcode.QRCode(
+        version=1,
+        error_correction=qrcode.constants.ERROR_CORRECT_L,
+        box_size=10,
+        border=4,
+    )
