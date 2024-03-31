@@ -12,3 +12,5 @@ def generate_qr_code(url, filename):
     )
     qr.add_data(url)
     qr.make(fit=True)
+    
+    
