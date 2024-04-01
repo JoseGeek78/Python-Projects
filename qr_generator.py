@@ -16,4 +16,4 @@ def generate_qr_code(url, filename):
     img = qr.make_image(fill_color='black', back_color='white')
     img.save(filename)
     
-st.set_page_config()
+st.set_page_config((page_title="QR Code Generator", page_icon="🌐", layout="centered")
