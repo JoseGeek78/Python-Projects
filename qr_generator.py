@@ -22,3 +22,4 @@ st.image('images/supports.JPG', use_column_width=True)
 st.title('QR Code Generator')
 url = st.text_input('Enter the URL')
 
+if st.button('Generate QR Code'):
