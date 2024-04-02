@@ -24,4 +24,5 @@ url = st.text_input('Enter the URL')
 
 if st.button('Generate QR Code'):
     generate_qr_code(url, filename)
+    st.image(filename, use_column_width=True)
     
