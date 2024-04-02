@@ -17,7 +17,7 @@ def generate_qr_code(url, filename):
     img.save(filename)
     
 
-st.set_page_config(page_title="QR Code Generator", page_icon="🌐", layout="centered")
+st.set_page_config(page_title='QR Code Generator', page_icon='🌐', layout='centered')
 st.image('images/supports.JPG', use_column_width=True)
 st.title('QR Code Generator')
 url = st.text_input('Enter the URL')
@@ -27,4 +27,4 @@ if st.button('Generate QR Code'):
     st.image(filename, use_column_width=True)
     with open(filename, 'rb') as f:
         image_data = f.read()
-    download = st.download_button(label="Download QR", data=image_data, file_name="qr_generated.png")
+    download = st.download_button(label='Download QR', data=image_data, file_name='qr_generated.png')
