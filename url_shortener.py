@@ -7,3 +7,4 @@ def shorten_url(url):
     return shortened_url
 
 #APP Web con streamlit
+st.set_page_config()
