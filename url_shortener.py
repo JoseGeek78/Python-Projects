@@ -6,4 +6,4 @@ def shorten_url(url):
     shortened_url = s.tinyurl.short(url)
     return shortened_url
 
-#
+#APP Web con streamlit
