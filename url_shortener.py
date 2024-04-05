@@ -12,4 +12,4 @@ st.image("images/www.png", use_column_width=True)
 st.title("URL Shortener")
 url = st.text_input("Enter the URL")
 if st.button("Generate new URL"):
-    st.write("URL Shortened: ",)
+    st.write("URL Shortened: ", shorten_url(url))
