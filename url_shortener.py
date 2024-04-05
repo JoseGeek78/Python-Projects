@@ -11,3 +11,4 @@ st.set_page_config(page_title="URL Shortener", page_icon="✏️", Layout="cente
 st.image("images/www.png", use_column_width=True)
 st.title("URL Shortener")
 url = st.text_input("Enter the URL")
+if st.button("Generate new URL"):
