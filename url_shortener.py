@@ -8,3 +8,4 @@ def shorten_url(url):
 
 #APP Web con streamlit
 st.set_page_config(page_title="URL Shortener", page_icon="✏️", Layout="centered")
+st.image("images/www.png", use_column_width=True)
