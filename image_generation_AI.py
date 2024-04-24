@@ -47,4 +47,3 @@ if st.button('Generate Image'):
             image_data = f.read()
         download = st.download_button(label="Download Image", data=image_data, file_name="image_generated.jpg")
         
-        
